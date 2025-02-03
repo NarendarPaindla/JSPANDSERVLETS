@@ -1,0 +1,28 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<div class="container">
+<h2>Login</h2>
+<form action="" method="post">
+<div>
+<label class="form-label">Email:</label>
+<input type="email" name="email" class="form-control" required>
+</div>
+<div>
+<label class="form-label">Password:</label>
+<input type="password" name="password" class="form-control" required>
+</div>
+<button type="submit" class="btn">Login</button>
+</form>
+<p style="margin-top: 15px;">
+Don't have an account? <a href="register.jsp">Register here</a>
+</p>
+</div>
+</body>
+</html>
