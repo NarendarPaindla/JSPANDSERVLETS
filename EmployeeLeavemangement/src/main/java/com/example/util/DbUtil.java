@@ -4,7 +4,7 @@ import java.sql.*;
 public class DbUtil {
 	private static final String URL="jdbc:mysql://localhost:3306/employee_CSBETA";
 	private static final String USER="root";
-	private static final String PASS="";
+	private static final String PASS="pass123";
 	static {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");

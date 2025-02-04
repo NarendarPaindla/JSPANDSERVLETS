@@ -64,7 +64,10 @@ body {
 <body>
 <div class="container">
 <h2>Login</h2>
-<form action="" method="post">
+<%if(request.getParameter("msg")!=null){  %>
+<div class="alert"><%=request.getParameter("msg") %></div>
+<%} %>
+<form action="login" method="post">
 <div>
 <label class="form-label">Email:</label>
 <input type="email" name="email" class="form-control" required>

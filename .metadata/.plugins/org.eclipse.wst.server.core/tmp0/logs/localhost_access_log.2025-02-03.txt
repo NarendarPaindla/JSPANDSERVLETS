@@ -7,3 +7,5 @@
 0:0:0:0:0:0:0:1 - - [03/Feb/2025:12:28:53 +0530] "GET /EmployeeLeavemangement/login.jsp HTTP/1.1" 200 1863
 0:0:0:0:0:0:0:1 - - [03/Feb/2025:12:28:56 +0530] "GET /EmployeeLeavemangement/register.jsp HTTP/1.1" 200 2232
 0:0:0:0:0:0:0:1 - - [03/Feb/2025:12:28:58 +0530] "GET /EmployeeLeavemangement/login.jsp HTTP/1.1" 200 1863
+127.0.0.1 - - [03/Feb/2025:12:41:54 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [03/Feb/2025:12:41:55 +0530] "GET /EmployeeLeavemangement/login.jsp HTTP/1.1" 200 1863
